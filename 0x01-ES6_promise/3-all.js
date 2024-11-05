@@ -3,6 +3,7 @@ import { uploadPhoto, createUser } from './utils';
 function handleProfileSignup() {
   return Promise.all([uploadPhoto(), createUser()])
     .then(([photoResponse, userResponse]) => {
+      // Log 'photo-profile-1 Guillaume Salva' to match the test expectation
       console.log(photoResponse.body, userResponse.firstName, userResponse.lastName);
     })
     .catch(() => {
@@ -10,5 +11,4 @@ function handleProfileSignup() {
     });
 }
 
-// Export handleProfileSignup as the default export
 export default handleProfileSignup;
