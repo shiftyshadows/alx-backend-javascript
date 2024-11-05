@@ -10,4 +10,5 @@ function handleProfileSignup() {
     });
 }
 
-export { handleProfileSignup, uploadPhoto, createUser };
+// Export handleProfileSignup as the default export
+export default handleProfileSignup;
