@@ -57,3 +57,35 @@ By the end of this project, you will be able to explain the following concepts w
 - Type compatibility and uniqueness
 
 ## 📁 Project Structure
+
+typescript-learning/
+├── src/
+│ ├── basic-types/
+│ ├── interfaces-classes/
+│ ├── dom-manipulation/
+│ ├── generics/
+│ ├── namespaces/
+│ ├── declaration-merging/
+│ ├── ambient-namespaces/
+│ └── nominal-typing/
+├── tests/
+├── dist/
+├── package.json
+├── tsconfig.json
+└── README.md
+text
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- TypeScript (`npm install -g typescript`)
+
+### Installation
+
+1. Clone this repository
+2. Install dependencies:
+```bash
+npm install
